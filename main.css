@@ -1,0 +1,90 @@
+/*****/
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+}
+ul>li {
+    list-style: none;
+}
+/*****/
+
+body {
+    background: url('./assets/b.png');
+    background-size: cover;
+    color: #4d4d4d;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    margin-top: 3rem;
+    margin-top: 10vh;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+h3 {
+    color: #727272;
+}
+
+main {
+    flex-direction: column;
+    background: white;
+    margin: 0 20%;
+    padding: 2.3rem 3.5rem;
+    margin-top: 2rem;
+    margin-top: 5vh;
+    min-height: 30rem;
+    min-height: 66vh;
+    display: flex;
+    border-radius: 3px;
+}
+
+article {
+    margin-top: 3rem;
+}
+
+
+.hosts-list {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.host img {
+    border-radius: 50%;
+}
+
+
+.episode-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 1rem;
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        background-size: auto;
+    }
+
+    main {
+        margin: 0 5%;
+    }
+
+    .episode-container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1050px) {
+    body {
+        background-size: auto;
+    }
+
+    .episode-container {
+        width: 100%;
+    }
+}

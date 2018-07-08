@@ -1,0 +1,56 @@
+<h1>Devcast</h1>
+
+<main>
+    <article class="hosts">
+        <h2>Anfitriones</h2>
+        <div class="hosts-list-container">
+            <ul class="hosts-list">
+                <li>
+                    <div class="host">
+                        <img src="./assets/ds.jpeg" alt="Daniel Sanchez">
+                        <h3 class="host-name">Daniel Sanchez</h3>
+                    </div>
+                </li>
+                <li>
+                    <div class="host">
+                        <img src="./assets/dc.jpeg" alt="Diego Coy">
+                        <h3 class="host-name">Diego Coy</h3>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </article>
+
+    <article class="episodes">
+        <h2>Capítulos</h2>
+        {{#if episodes}}
+            {{#each episodes as |episode episodeKey|}}
+                <ul>
+                    <li>
+                        <section class="episode-container">
+                            <div class="meta-container">
+                                <h3>
+                                    <span>{{episode.release_id}}: </span>
+                                    <span>{{episode.name}}</span>
+                                </h3>
+                            </div>
+                            <div class="listen-options">
+                                {{#if episode.urls}}
+                                    {{#each episode.urls as |url urlKey|}}
+                                        <ul>
+                                            <li>
+                                               <a href="{{url.url}}">{{url.label}}</a>
+                                            </li>
+                                        </ul>
+                                    {{/each}}
+                                {{/if}}
+                            </div>
+                        </section>
+                    </li>
+                </ul>
+            {{/each}}
+        {{/if}}
+        
+    </article>
+
+</main>

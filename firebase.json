@@ -11,7 +11,8 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ]
+    ],
+    "rewrites": [{"source": "/", "function": "main"}]
   },
   "storage": {
     "rules": "storage.rules"

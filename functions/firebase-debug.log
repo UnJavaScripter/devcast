@@ -1,0 +1,83 @@
+[debug] [2018-07-23T03:03:46.164Z] ----------------------------------------------------------------------
+[debug] [2018-07-23T03:03:46.174Z] Command:       /home/unjs/.nvm/versions/node/v6.11.5/bin/node /home/unjs/.nvm/versions/node/v6.11.5/bin/firebase serve --only functions,hosting
+[debug] [2018-07-23T03:03:46.175Z] CLI Version:   3.17.6
+[debug] [2018-07-23T03:03:46.175Z] Platform:      linux
+[debug] [2018-07-23T03:03:46.176Z] Node Version:  v6.11.5
+[debug] [2018-07-23T03:03:46.176Z] Time:          Sun Jul 22 2018 22:03:46 GMT-0500 (-05)
+[debug] [2018-07-23T03:03:46.176Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-23T03:03:46.247Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-23T03:03:46.248Z] > authorizing via signed-in user
+[debug] [2018-07-23T03:03:46.256Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-07-23T03:03:46.257Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/2I3e65s_izAut8f3riXzrPed1M_G_VAowM6_Lv77jGI',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Jul 22 2018 22:03:46 GMT-0500 (-05)
+[debug] [2018-07-23T03:03:47.000Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-23T03:03:47.050Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/devcast-7b66e  
+  
+ Sun Jul 22 2018 22:03:47 GMT-0500 (-05)
+[debug] [2018-07-23T03:03:57.705Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-23T03:03:57.708Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/devcast-7b66e/tokens  
+  
+ Sun Jul 22 2018 22:03:57 GMT-0500 (-05)
+[debug] [2018-07-23T03:04:01.586Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-23T03:04:01.590Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/devcast-7b66e  
+  
+ Sun Jul 22 2018 22:04:01 GMT-0500 (-05)
+[debug] [2018-07-23T03:04:02.710Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/unjs/code/unjavascripter/devcast'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-07-23T03:04:08.789Z] Fetching environment
+[debug] [2018-07-23T03:04:08.791Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/233837155690:getServerAppConfig  
+  
+ Sun Jul 22 2018 22:04:08 GMT-0500 (-05)
+[debug] [2018-07-23T03:04:08.792Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/233837155690/clients/_:getWebAppConfig  
+  
+ Sun Jul 22 2018 22:04:08 GMT-0500 (-05)
+[debug] [2018-07-23T03:04:09.860Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-23T03:04:10.009Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-23T03:04:10.009Z] Starting @google-cloud/functions-emulator
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[debug] [2018-07-23T03:04:13.691Z] Parsing function triggers
+[info] ✔  functions: main: http://localhost:5001/devcast-7b66e/us-central1/main
+[info] [hosting] Rewriting / to local function main
+[info] [hosting] Rewriting / to local function main
+[info] [hosting] Rewriting / to local function main
+[info] [hosting] Rewriting / to local function main
+[info] [hosting] Rewriting / to local function main
+[info] [hosting] Rewriting / to local function main
+[info] [hosting] Rewriting / to local function main
+[info] [hosting] Rewriting / to local function main
+[info] [hosting] Rewriting / to local function main
+[info] [hosting] Rewriting / to local function main
+[info] [hosting] Rewriting / to local function main
+[info] [hosting] Rewriting / to local function main
+[info] [hosting] Rewriting / to local function main
+[info] [hosting] Rewriting /?o=i to local function main
+[info] [hosting] Rewriting / to local function main
+[info] [hosting] Rewriting / to local function main
+[info] [hosting] Rewriting /?o=i to local function main
+[info] [hosting] Rewriting / to local function main
+[info] [hosting] Rewriting / to local function main
+[info] [hosting] Rewriting /?o=i to local function main
+[info] [hosting] Rewriting / to local function main
+[info] [hosting] Rewriting / to local function main
+[info] [hosting] Rewriting /?o=i to local function main
+[info] [hosting] Rewriting / to local function main
+[info] [hosting] Rewriting / to local function main
+[info] [hosting] Rewriting / to local function main
+[info] [hosting] Rewriting /?o=i to local function main
+[info] [hosting] Rewriting / to local function main
+[info] [hosting] Rewriting / to local function main
+[info] [hosting] Rewriting /?o=i to local function main
+[info] [hosting] Rewriting / to local function main
+[info] [hosting] Rewriting / to local function main
+[info] [hosting] Rewriting /?o=i to local function main

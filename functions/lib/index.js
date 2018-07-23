@@ -14,6 +14,7 @@ app.set('view engine', 'handlebars');
 // app.use(firebaseUser.validateFirebaseIdToken);
 app.get('/', (req, res) => {
     const episodesRef = admin.firestore().collection('episodes');
+    res.set('Cache-Control', 'public, max-age=300, s-maxage=600');
     return episodesRef
         .get()
         .then(querySnapshot => {

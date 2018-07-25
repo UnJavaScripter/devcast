@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+    <channel>
+        <title>DevCast</title>
+        <googleplay:author>Diego Coy y Daniel Sanchez</googleplay:author>
+        <description>DevCast es un PodCast en español de desarrolladores para desarrolladores. Buscamos a través de un lenguaje común hablar de temas relacionados con tecnología.</description>
+        <googleplay:image href="https://devcast.live/assets/devcast.jpeg"/>
+        <language>es-co</language>
+        <link>http://www.devcast.live/</link>
+        <item>
+            <title>¿Almacenar datos personales en el exterior?</title>
+            <googleplay:description>Para latinoamérica qué restricciones tengo para alojar datos sensibles en proveedores de nube pública que no cuentan con centros de datos en mi país? A lo largo de este episodio hablamos de qué áreas o verticales tienen restricciones o deben tener en cuenta estrategias especiales.</googleplay:description>
+            <itunes:summary>Para latinoamérica qué restricciones tengo para alojar datos sensibles en proveedores de nube pública que no cuentan con centros de datos en mi país? A lo largo de este episodio hablamos de qué áreas o verticales tienen restricciones o deben tener en cuenta estrategias especiales.</itunes:summary>
+            <pubDate>Fri, 29 Jun 2018 12:00:00 GMT</pubDate>
+            <enclosure url="https://firebasestorage.googleapis.com/v0/b/devcast-7b66e.appspot.com/o/episodes%2Fdevcast-0.mp3?alt=media&token=9a45c70f-9734-4d8f-8bbc-f2369be55eef"
+                       type="audio/mpeg" length="35437919"/>
+            <itunes:duration>37:19</itunes:duration>
+            <guid>DevCast-000</guid>
+        </item>
+    </channel>
+</rss>

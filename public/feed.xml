@@ -7,11 +7,11 @@
         <itunes:author>Diego Coy y Daniel Sanchez</itunes:author>
         <googleplay:email>danielm.sanchez@gmail.com</googleplay:email>
         <description>DevCast es un PodCast en español de desarrolladores para desarrolladores. Buscamos a través de un lenguaje común hablar de temas relacionados con tecnología.</description>
-        <googleplay:image href="https://firebasestorage.googleapis.com/v0/b/devcast-7b66e.appspot.com/o/Images%2Ffeed%2Fitunes-feed%2Fsquare.jpg?alt=media&token=a10092af-0050-4e18-bd39-a152a889d5d5"/>
+        <googleplay:image href="https://devcast.live/assets/devcast.jpeg"/>
         <image>
             <link>href="https://devcast.live/"</link>
             <title>Devcast</title>
-            <url>https://firebasestorage.googleapis.com/v0/b/devcast-7b66e.appspot.com/o/Images%2Ffeed%2Fitunes-feed%2Fsquare.jpg?alt=media&token=a10092af-0050-4e18-bd39-a152a889d5d5</url>
+            <url>https://devcast.live/assets/devcast.jpeg</url>
         </image>
         <language>es-co</language>
         <googleplay:category text="Technology"/>

@@ -13,7 +13,7 @@
             <googleplay:description>Para latinoamérica qué restricciones tengo para alojar datos sensibles en proveedores de nube pública que no cuentan con centros de datos en mi país? A lo largo de este episodio hablamos de qué áreas o verticales tienen restricciones o deben tener en cuenta estrategias especiales.</googleplay:description>
             <itunes:summary>Para latinoamérica qué restricciones tengo para alojar datos sensibles en proveedores de nube pública que no cuentan con centros de datos en mi país? A lo largo de este episodio hablamos de qué áreas o verticales tienen restricciones o deben tener en cuenta estrategias especiales.</itunes:summary>
             <pubDate>Fri, 29 Jun 2018 12:00:00 GMT</pubDate>
-            <enclosure url="https://firebasestorage.googleapis.com/v0/b/devcast-7b66e.appspot.com/o/episodes%2Fdevcast-0.mp3?alt=media&token=9a45c70f-9734-4d8f-8bbc-f2369be55eef"
+            <enclosure url="https://firebasestorage.googleapis.com/v0/b/devcast-7b66e.appspot.com/o/episodes%2Fdevcast-0.mp3?alt=media&amp;amp;token=9a45c70f-9734-4d8f-8bbc-f2369be55eef"
                        type="audio/mpeg" length="35437919"/>
             <itunes:duration>37:19</itunes:duration>
             <guid>DevCast-000</guid>
@@ -23,7 +23,7 @@
             <googleplay:description>En este episodio hablamos un poco de los nuevos dispositivos de IoT en el mercado ysu funcionamieto. También hablamos de los downtime de la semana.</googleplay:description>
             <itunes:summary>En este episodio hablamos un poco de los nuevos dispositivos de IoT en el mercado ysu funcionamieto. También hablamos de los downtime de la semana.</itunes:summary>
             <pubDate>Wed, 18 Jul 2018 12:00:00 GMT</pubDate>
-            <enclosure url="https://firebasestorage.googleapis.com/v0/b/devcast-7b66e.appspot.com/o/episodes%2Fdevcast-1.mp3?alt=media&token=64d80547-d630-407b-ab49-f1dc902ff81d"
+            <enclosure url="https://firebasestorage.googleapis.com/v0/b/devcast-7b66e.appspot.com/o/episodes%2Fdevcast-1.mp3?alt=media&amp;amp;token=64d80547-d630-407b-ab49-f1dc902ff81d"
                        type="audio/mpeg" length="42827472"/>
             <itunes:duration>44:23</itunes:duration>
             <guid>DevCast-001</guid>

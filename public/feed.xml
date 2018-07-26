@@ -4,9 +4,18 @@
     <channel>
         <title>DevCast</title>
         <googleplay:author>Diego Coy y Daniel Sanchez</googleplay:author>
+        <itunes:author>Diego Coy y Daniel Sanchez</itunes:author>
+        <googleplay:email>danielm.sanchez@gmail.com</googleplay:email>
         <description>DevCast es un PodCast en español de desarrolladores para desarrolladores. Buscamos a través de un lenguaje común hablar de temas relacionados con tecnología.</description>
         <googleplay:image href="https://devcast.live/assets/devcast.jpeg"/>
+        <image>
+            <link>href="https://devcast.live/"</link>
+            <title>Devcast</title>
+            <url>https://devcast.live/assets/devcast.jpeg</url>
+        </image>
         <language>es-co</language>
+        <googleplay:category text="Technology"/>
+        <itunes:category text="Technology"/>
         <link>http://www.devcast.live/</link>
         <item>
             <title>¿Almacenar datos personales en el exterior?</title>

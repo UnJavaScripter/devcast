@@ -1,55 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <rss version="2.0" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<rss xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
+    <title>DevCast</title>
+    <link>https://devcast.live</link>
+    <language>es-CO</language>
+    <image>
+      <link>href="https://devcast.live/"</link>
+      <title>Devcast</title>
+      <url>https://devcast.live/assets/devcast.jpeg</url>
+    </image>
+    <description>DevCast es un PodCast en español de desarrolladores para desarrolladores. Buscamos a través de un lenguaje común hablar de temas relacionados con tecnología.</description>
     
+    <lastBuildDate>Thu, 26 Jul 2018 13:01:35 +0000</lastBuildDate>
+
     <googleplay:email>danielm.sanchez@gmail.com</googleplay:email>
-    <googleplay:image href="https://devcast.live/assets/devcast-1400x1400.jpg"/>
-    
+    <googleplay:image href="https://devcast.live/assets/devcast-1400x1400.jpg" />
     <itunes:author>Daniel Sanchez y Diego Coy</itunes:author>
-    <itunes:summary>DevCast es un PodCast en español de desarrolladores para desarrolladores. Buscamos a través de un lenguaje común hablar de temas relacionados con tecnología</itunes:summary>  
+    <itunes:summary>DevCast es un PodCast en español de desarrolladores para desarrolladores. Buscamos a través de un lenguaje común hablar de temas relacionados con tecnología</itunes:summary>
     <itunes:owner>
       <itunes:name>Daniel Sanchez</itunes:name>
       <itunes:email>danielm.sanchez@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:image href="https://devcast.live/assets/devcast-1400x1400.jpg" />
-    <itunes:category text="Technology"/>
-    
-    <title>DevCast</title>
-    <link>https://devcast.live</link>
-    <language>es-CO</language>
-    <image>
-        <link>href="https://devcast.live/"</link>
-        <title>Devcast</title>
-        <url>https://devcast.live/assets/devcast.jpeg</url>
-    </image>
-    <description>DevCast es un PodCast en español de desarrolladores para desarrolladores. Buscamos a través de un lenguaje común hablar de temas relacionados con tecnología.</description>
-    <lastBuildDate>Thu, 26 Jul 2018 13:01:35 +0000</lastBuildDate>
+    <itunes:category text="Technology" />
+    <itunes:explicit>no</itunes:explicit>
 
-      <item>
-        <itunes:author>Daniel Sanchez y Diego Coy</itunes:author>
-        <itunes:subtitle>Primer capitulo de Devcast</itunes:subtitle>
-        <itunes:summary>Para latinoamérica qué restricciones tengo para alojar datos sensibles en proveedores de nube pública que no cuentan con centros de datos en mi país? A lo largo de este episodio hablamos de qué áreas o verticales tienen restricciones o deben tener en cuenta estrategias especiales.</itunes:summary>
-        <itunes:image href="https://devcast.live/assets/devcast-1400x1400.jpg" />
-        <itunes:duration>37:19</itunes:duration>
-        
-        <title>¿Almacenar datos personales de usuarios en el exterior?</title>
-        <enclosure url="https://firebasestorage.googleapis.com/v0/b/devcast-7b66e.appspot.com/o/episodes%2Fdevcast-0.mp3?alt=media&amp;amp;token=9a45c70f-9734-4d8f-8bbc-f2369be55eef" type="audio/mpeg" length="35437919"/>
-        <guid>DevCast-0000</guid>
-        <pubDate>Thu Jul 26 2018 13:05:20 GMT-0500 (Colombia Standard Time)</pubDate>
-      </item>
+    <item>
+      <title>¿Almacenar datos personales de usuarios en el exterior?</title>
+      <pubDate>Fri Jul 06 2018 12:00:00 GMT</pubDate>
+      <enclosure url="https://devcast.live/episodes/0?t=9a45c70f-9734-4d8f-8bbc-f2369be55eef" type="audio/mpeg" length="35437919" />
+      <guid>devcast-0000</guid>
 
-      <item>
-        <itunes:author>Daniel Sanchez y Diego Coy</itunes:author>
-        <itunes:subtitle>Segundo capitulo</itunes:subtitle>
-        <itunes:summary>En este episodio hablamos un poco de los nuevos dispositivos de IoT en el mercado ysu funcionamieto. También hablamos de los downtime de la semana.</itunes:summary>
-        <itunes:image href="https://devcast.live/assets/devcast-1400x1400.jpg" />
-        <itunes:duration>44:23</itunes:duration>
-        
-        <title>Dispositivos inteligentes ¿Cómo funcionan?</title>
-        <pubDate>Wed, 18 Jul 2018 12:00:00 GMT</pubDate>
-        <enclosure url="https://firebasestorage.googleapis.com/v0/b/devcast-7b66e.appspot.com/o/episodes%2Fdevcast-1.mp3?alt=media&amp;amp;token=64d80547-d630-407b-ab49-f1dc902ff81d" type="audio/mpeg" length="42827472"/>
-        <guid>DevCast-0001</guid>
+      <itunes:author>Daniel Sanchez y Diego Coy</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:subtitle>Primer capitulo de Devcast</itunes:subtitle>
+      <itunes:summary>Para latinoamérica qué restricciones tengo para alojar datos sensibles en proveedores de nube pública que no cuentan con centros de datos en mi país? A lo largo de este episodio hablamos de qué áreas o verticales tienen restricciones o deben tener en cuenta estrategias especiales.</itunes:summary>
+      <itunes:image href="https://devcast.live/assets/devcast-1400x1400.jpg" />
+      <itunes:duration>37:19</itunes:duration>
+      <itunes:order>0</itunes:order>
     </item>
-    
+
+    <item>
+      <title>Dispositivos inteligentes ¿Cómo funcionan?</title>
+      <pubDate>Wed, 18 Jul 2018 12:00:00 GMT</pubDate>
+      <enclosure url="https://devcast.live/episodes/1?t=64d80547-d630-407b-ab49-f1dc902ff81d" type="audio/mpeg" length="42827472" />
+      <guid>devcast-0001</guid>
+
+      <itunes:author>Daniel Sanchez y Diego Coy</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:subtitle>Segundo capitulo</itunes:subtitle>
+      <itunes:summary>En este episodio hablamos un poco de los nuevos dispositivos de IoT en el mercado ysu funcionamieto. También hablamos de los downtime de la semana.</itunes:summary>
+      <itunes:image href="https://devcast.live/assets/devcast-1400x1400.jpg" />
+      <itunes:duration>44:23</itunes:duration>
+      <itunes:order>1</itunes:order>
+    </item>
   </channel>
 </rss>

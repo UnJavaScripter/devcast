@@ -12,7 +12,10 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "rewrites": [{"source": "/", "function": "main"}]
+    "rewrites": [
+      {"source": "/", "function": "main"},
+      {"source": "/episodes/**", "function": "main"}
+    ]
   },
   "storage": {
     "rules": "storage.rules"

@@ -21,5 +21,10 @@ app.get('/', (req, res) => {
         return res.render('home', { episodes: [] });
     });
 });
+app.get('/episodes/:episodeId', (req, res) => {
+    const episodeId = req.params.episodeId;
+    const publicToken = req.query.t;
+    res.redirect(`https://firebasestorage.googleapis.com/v0/b/devcast-7b66e.appspot.com/o/episodes%2Fdevcast-${episodeId}.mp3?alt=media&token=${publicToken}`);
+});
 exports.main = functions.https.onRequest(app);
 //# sourceMappingURL=index.js.map

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,55 +20,57 @@
     <link rel="shortcut icon" href="devcast-192x192.png" type="image/png">
     <link rel="apple-touch-icon" href="devcast-192x192.png">
 
-    <meta property="og:url"                content="https://devcast.live" />
-    <meta property="og:title"              content="Devcast" />
-    <meta property="og:description"        content="Un podcast de tecnología en español. Por desarrolladores, para desarrolladores" />
-    <meta property="og:image"              content="https://devcast.live/og.jpg" />
-    <meta property="og:image:width"        content="1200" />
-    <meta property="og:image:height"       content="630" />
+    <meta property="og:url" content="https://devcast.live" />
+    <meta property="og:title" content="Devcast" />
+    <meta property="og:description" content="Un podcast de tecnología en español. Por desarrolladores, para desarrolladores"
+    />
+    <meta property="og:image" content="https://devcast.live/og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
 
 </head>
+
 <body>
-    
+
     {{{body}}}
-    
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121963260-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'UA-121963260-1');
     </script>
     <script>
-        if('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('./sw.js').then(registration => {
-            registration.onupdatefound = () => {
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('./sw.js').then(registration => {
+                registration.onupdatefound = () => {
 
-            const installingWorker = registration.installing;
+                    const installingWorker = registration.installing;
 
-            installingWorker.onstatechange = (e) => {
-            
-                if (installingWorker.state === 'installed') {
-                if (navigator.serviceWorker.controller) {
-                    console.log('El contenido del sitio se ha actualizado, verás la nueva versión tras refrescar la página');
-                } else {
-                    console.log('Sitio \'cacheado\' ¡Visitas offline activadas!');
-                }
-                }
-                
-            };
-            };
+                    installingWorker.onstatechange = (e) => {
+                        if (installingWorker.state === 'installed') {
+                            if (navigator.serviceWorker.controller) {
+                                console.log('El contenido del sitio se ha actualizado, verás la nueva versión tras refrescar la página');
+                            } else {
+                                console.log('Sitio \'cacheado\' ¡Visitas offline activadas!');
+                            }
+                        }
 
-        }).catch(err => {
-            console.warn(':( Algo pasó durante el registro del Service Worker: ', err);
-        });
+                    };
+                };
 
-        navigator.serviceWorker.ready.then(serviceWorkerRegistration => {
-            console.log('El Service Worker está listo :D');
-        })
+            }).catch(err => {
+                console.warn(':( Algo pasó durante el registro del Service Worker: ', err);
+            });
+
+            navigator.serviceWorker.ready.then(serviceWorkerRegistration => {
+                console.log('El Service Worker está listo :D');
+            })
         }
     </script>
 
 </body>
+
 </html>

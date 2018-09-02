@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
   return episodesRef
       .get()
       .then(querySnapshot => {
-          const data = querySnapshot.docs.map(documentSnapshot => documentSnapshot.data());
+          const data = querySnapshot.docs.map(documentSnapshot => documentSnapshot.data()).sort((a,b) => a.release_id > b.release_id);
           return res.render('home', { episodes: data});
       })
       .catch(err => {

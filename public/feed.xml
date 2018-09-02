@@ -11,7 +11,7 @@
     </image>
     <description>DevCast es un PodCast en español de desarrolladores para desarrolladores. Buscamos a través de un lenguaje común hablar de temas relacionados con tecnología.</description>
     
-    <lastBuildDate>Thu, 26 Jul 2018 13:01:35 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Jul 2018 12:00:00 GMT</lastBuildDate>
 
     <googleplay:email>danielm.sanchez@gmail.com</googleplay:email>
     <googleplay:image href="https://devcast.live/assets/devcast-1400x1400.jpg" />
@@ -27,7 +27,7 @@
 
     <item>
       <title>¿Almacenar datos personales de usuarios en el exterior?</title>
-      <pubDate>Fri Jul 06 2018 12:00:00 GMT</pubDate>
+      <pubDate>Fri, 06 Jul 2018 12:00:00 GMT</pubDate>
       <enclosure url="https://devcast.live/episodes/0?t=9a45c70f-9734-4d8f-8bbc-f2369be55eef" type="audio/mpeg" length="35437919" />
       <guid>devcast-0000</guid>
 
@@ -43,7 +43,7 @@
     <item>
       <title>Dispositivos inteligentes ¿Cómo funcionan?</title>
       <pubDate>Wed, 18 Jul 2018 12:00:00 GMT</pubDate>
-      <enclosure url="https://devcast.live/episodes/1?t=64d80547-d630-407b-ab49-f1dc902ff81d" type="audio/mpeg" length="42827472" />
+      <enclosure url="https://devcast.live/episodes/1?t=d4fca4e4-90be-441e-a26b-d371abbe0d79" type="audio/mpeg" length="45510013" />
       <guid>devcast-0001</guid>
 
       <itunes:author>Daniel Sanchez y Diego Coy</itunes:author>
@@ -51,8 +51,65 @@
       <itunes:subtitle>Segundo capitulo</itunes:subtitle>
       <itunes:summary>En este episodio hablamos un poco de los nuevos dispositivos de IoT en el mercado ysu funcionamieto. También hablamos de los downtime de la semana.</itunes:summary>
       <itunes:image href="https://devcast.live/assets/devcast-1400x1400.jpg" />
-      <itunes:duration>44:23</itunes:duration>
+      <itunes:duration>44:22</itunes:duration>
       <itunes:order>1</itunes:order>
+    </item>
+
+    <item>
+      <title>La guerra de las nubes ¿estará tomando una nueva forma?</title>
+      <pubDate>Wed, 14 Aug 2018 12:00:00 GMT</pubDate>
+      <enclosure url="https://devcast.live/episodes/2?t=0e04ef3d-1afc-41f0-85b0-3bff939a9190" type="audio/mpeg" length="39779490" />
+      <guid>devcast-0002</guid>
+
+      <itunes:author>Daniel Sanchez y Diego Coy</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:subtitle>Tercer capitulo</itunes:subtitle>
+      <itunes:summary>En este episodio hablamos un poco la gerra de los proveedores de servicios de computación en la nube y el panorama que se ve para el futuro.</itunes:summary>
+      <description>
+        <![CDATA[
+          Links:
+          <ul>
+            <li>
+              <a href="https://www.youtube.com/playlist?list=PLBgogxgQVM9v0xG0QTFQ5PTbNrj8uGSS-" data-component="link" data-source="inlineLink" data-type="externalLink" data-ordinal="1">
+                Todas lass sesiones del Google Cloud Next '18 en YouTube
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/user/gigafide" data-component="link" data-source="inlineLink" data-type="externalLink" data-ordinal="1">
+                Canal en Youtube de Tinkernut
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/watch?v=Kq_BJg_8iyU" data-component="link" data-source="inlineLink" data-type="externalLink" data-ordinal="1">
+                Primer video de Tinkernut en la serie de creación de un "smart car"
+              </a>
+            </li>
+            <li>
+              <a href="https://developers.google.com/web/fundamentals/app-install-banners/" data-component="link" data-source="inlineLink" data-type="externalLink" data-ordinal="1">
+                Nueva forma de mostrar el Web App Install Banner para Chrome
+              </a>
+            </li>
+            <li>
+              <a href="https://www.blog.google/products/android/start-your-day-high-note-musical-alarms-google-clock-app/" data-component="link" data-source="inlineLink" data-type="externalLink" data-ordinal="1">
+                Spotify en la aplicación de reloj Google
+              </a>
+            </li>
+            <li>
+              <a href="https://techcrunch.com/2018/07/26/atlassians-hipchat-and-stride-to-be-discontinued-with-slack-buying-up-the-ip/" data-component="link" data-source="inlineLink" data-type="externalLink" data-ordinal="1">
+                Slack adquiere Hipchat
+              </a>
+            </li>
+            <li>
+              <a href="https://www.theverge.com/2018/8/3/17647716/google-return-to-china-censorship" data-component="link" data-source="inlineLink" data-type="externalLink" data-ordinal="1">
+                Google con ganas de volver a tener <i>search</i> en China
+              </a>
+            </li>
+          </ul>
+        ]]>
+      </description>
+      <itunes:image href="https://devcast.live/assets/devcast-1400x1400.jpg" />
+      <itunes:duration>58:54</itunes:duration>
+      <itunes:order>2</itunes:order>
     </item>
   </channel>
 </rss>

@@ -67,6 +67,7 @@
       <itunes:summary>En este episodio hablamos un poco la gerra de los proveedores de servicios de computación en la nube y el panorama que se ve para el futuro.</itunes:summary>
       <description>
         <![CDATA[
+          <p>En este episodio hablamos un poco la gerra de los proveedores de servicios de computación en la nube y el panorama que se ve para el futuro.</p>
           Links:
           <ul>
             <li>
@@ -110,6 +111,81 @@
       <itunes:image href="https://devcast.live/assets/devcast-1400x1400.jpg" />
       <itunes:duration>58:54</itunes:duration>
       <itunes:order>2</itunes:order>
+    </item>
+
+    <item>
+      <title>Hardware nuevo, vulnerabilidades de seguridad por todas partes y una rápida introducción a "Progressive Web Apps" o PWA</title>
+      <pubDate>Thu, 11 Oct 2018 12:00:00 GMT</pubDate>
+      <enclosure url="https://devcast.live/episodes/3?t=3f6e20bb-b6df-4a5f-b6db-4b1992e407a8" type="audio/mpeg" length="137869136" />
+      <guid>devcast-0003</guid>
+
+      <itunes:author>Daniel Sanchez y Diego Coy</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:subtitle>Cuarto capitulo</itunes:subtitle>
+      <itunes:summary>Traemos noticias de los grandes de la industria (lo bonito, los anuncios y lo feo); se anunció mucho hardware y nos enteramos de muchas vulnerabilidades de seguridad. Finalmente hablamos de la web y las aplicaciones progresivas o PWA.</itunes:summary>
+      <description>
+        <![CDATA[
+          <p>Traemos noticias de los grandes de la industria (lo bonito, los anuncios y lo feo); se anunció mucho hardware y nos enteramos de muchas vulnerabilidades de seguridad. Finalmente hablamos de la web y las aplicaciones progresivas o PWA.</p>
+          Links:
+          <ul>
+            <li>
+              <a href="https://goo.gl/2pUzzc" data-component="link" data-source="inlineLink" data-type="externalLink" data-ordinal="1">
+                Presentación de PWA
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UCasVIAzmrcs1jmW2TTjrqfw/videos" data-component="link" data-source="inlineLink" data-type="externalLink" data-ordinal="1">
+                DevCast en YouTube
+              </a>
+            </li>
+          </ul>
+        ]]>
+      </description>
+      <itunes:image href="https://devcast.live/assets/devcast-1400x1400.jpg" />
+      <itunes:duration>104:51</itunes:duration>
+      <itunes:order>3</itunes:order>
+    </item>
+    
+    <item>
+      <title>No estaba muerto, ni andaba de parranda - Volvimos</title>
+      <pubDate>Thu, 02 Aug 2019 12:00:00 GMT</pubDate>
+      <enclosure url="https://devcast.live/episodes/4?t=e4eb15e0-d558-43d9-aa06-fc8e9fa8ce01" type="audio/mpeg" length="151418076" />
+      <guid>devcast-0004</guid>
+
+      <itunes:author>Daniel Sanchez y Diego Coy</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:subtitle>Quinto capitulo</itunes:subtitle>
+      <itunes:summary>Les contamos por qué estuvimos ausentes tanto tiempo, hablamos un poco de los últimos anuncios para la nube y repasamos algunas caidas</itunes:summary>
+      <description>
+        <![CDATA[
+          Links:
+          <ul>
+            <li>
+              <a href="https://careers.google.com/" data-component="link" data-source="inlineLink" data-type="externalLink" data-ordinal="1">
+                Google Careers
+              </a>
+            </li>
+            <li>
+              <a href="https://www.glassdoor.com" data-component="link" data-source="inlineLink" data-type="externalLink" data-ordinal="1">
+                Glassdoor
+              </a>
+            </li>
+            <li>
+              <a href="https://cloud.google.com/anthos/" data-component="link" data-source="inlineLink" data-type="externalLink" data-ordinal="1">
+                Anthos
+              </a>
+            </li>
+            <li>
+              El sitio web en el que está trabajando Daniel: <a href="https://riricast.appspot.com" data-component="link" data-source="inlineLink" data-type="externalLink" data-ordinal="1">
+                RiRiCast
+              </a>
+            </li>
+          </ul>
+        ]]>
+      </description>
+      <itunes:image href="https://devcast.live/assets/devcast-1400x1400.jpg" />
+      <itunes:duration>63:4</itunes:duration>
+      <itunes:order>4</itunes:order>
     </item>
   </channel>
 </rss>

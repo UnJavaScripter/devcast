@@ -29,6 +29,7 @@ app.get('/', (req, res) => {
 app.get('/episodes/:episodeId', (req, res) => {
     const episodeId = req.params.episodeId;
     const publicToken = req.query.t;
+    res.set('Cache-Control', 'public, max-age=300, s-maxage=600');
     res.redirect(
         `https://firebasestorage.googleapis.com/v0/b/devcast-7b66e.appspot.com/o/episodes%2Fdevcast-${episodeId}.mp3?alt=media&token=${publicToken}`
     );
